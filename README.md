@@ -1,3 +1,3 @@
 # ASFRM-Winter-Break-Stuff
 Winter break stuff
-Aye Finally got vscode and wsl properly set up!
+There should only be 1 of me now
