@@ -1,3 +1,3 @@
 # ASFRM-Winter-Break-Stuff
-Winter break stuff
-There should only be 1 of me now
+## Winterbreak stuff:
+This is basically a notebook for projects and terminology associated with those projects. 
