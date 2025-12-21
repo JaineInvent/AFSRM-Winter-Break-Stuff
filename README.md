@@ -13,7 +13,7 @@ Undergrad MechE trying to do as much as possible before the next semester begins
 - **Gonna learn B-feild modelling and how to design PCBs! Yipeee!!!!**
 
 # CubeSat:
-- I'm using github as documentation
+- I'm using github as documentation as we figure out how to integrate a new IMU into the Pycubed(more on that in the CubeSat folder)
 - **Learning KiCad and circuit design! Yipeee!!!!!!**
 
   
