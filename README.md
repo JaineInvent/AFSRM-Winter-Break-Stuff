@@ -1,5 +1,6 @@
 # ASFRM-Winter-Break-Stuff
 Undergrad MechE trying to do as much as possible before the next semester begins!
+- Working with friends :D !!
 # Axial Flux Switch Reluctance Motor(ASFRM):
 - A motor with no magnets is more sustainable and cheap.
 - It works through magnetic reluctance
