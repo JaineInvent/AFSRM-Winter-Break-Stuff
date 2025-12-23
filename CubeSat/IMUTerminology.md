@@ -33,3 +33,10 @@
 - **SDA** pin: bidirectional-sends bits between address and microcontroller
 - **SCL** pin: Bidirectional- tells microcontroller/imu when to read/write SDA bits
 - **nCS**: 
+# Schematic Notes:
+- **Pull-up Resistors**[9]:
+    - Used to prevent SDO pin from floating:
+    - When there's a load, resistor prevents damage 
+    - No load: resistor is essentially a wire with little current, useful preventing EMI and defining pin as HIGH
+-Capacitors [8,13]:
+  - Need to stabalize input voltage to VDDIO/VDD power pins in case of voltage spikes
