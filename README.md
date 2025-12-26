@@ -10,11 +10,11 @@ Undergrad MechE trying to do as much as possible before the next semester begins
 - Model the Magnetic feild of the whole motor using Maxwell or other FEAs
 - Start off with a small motor I can eventually scale up to be useful
 - **PCB stator**: Instead of hand-winded coils on the stator, I want to have them and other neccessary sensors for motor control on the PCB.
-- **Gonna learn B-feild modelling and how to design PCBs! Yipeee!!!!**
+- **Gonna learn B-feild modelling and how to design PCBs!**
 
 # CubeSat:
 - I'm using github as documentation as we figure out how to integrate a new IMU into the Pycubed(more on that in the CubeSat folder)
-- **Learning KiCad and circuit design! Yipeee!!!!!!**
+- **Learning KiCad and circuit design! **
 
   
 -Jaine R.
