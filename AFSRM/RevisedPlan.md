@@ -1,7 +1,7 @@
 # Mechanical 
 1. Identify dimensions: 
-Due to the 3D printers have a max bed size of 150mm x 150mm, I chose a radius of 40mm. Could've went larger, however, I want to decrease print times. This will come with challenges with thermal, they will be unchallenging soon. 
-- r = 40mm
+Due to the 3D printers have a max bed size of 150mm x 150mm, I chose a radius of 65mm. 
+- r = 65mm 
 2. Identify Power(output) and torque requirements: 
 - I'll find an interesting robot online, and base my actuator goals based on that of the existing actuator
 - Based on electrical constraints, I can calculate max torque for my actuator
@@ -37,3 +37,7 @@ Due to the 3D printers have a max bed size of 150mm x 150mm, I chose a radius of
 
 # Overall Flow: 
 Electrical constraints --> Mechanical optimization, should be fun. 
+## Constraints: 
+1. Power Supply = 5V
+2. trace spacing, resistance
+3. Max Current, split between sensors and pcb traces. 
