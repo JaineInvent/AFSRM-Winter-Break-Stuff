@@ -23,7 +23,7 @@ This project is being developed incrementally as a long-term exploratory effort,
 
     AFSRMs avoid permanent magnets entirely, producing torque through magnetic reluctance and permeability differences between the stator and rotor (typically laminated electrical steel). This makes them an attractive candidate for magnet-free, sustainable motor designs.
 
----
+
 2. **Technical**
 
     **PCB Stator AFSRMs and Prototyping** 
