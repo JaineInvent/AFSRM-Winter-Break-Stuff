@@ -8,6 +8,44 @@ Explore the use of Axial Flux Switch Reluctance Motors(AFSRM) for regenerative E
 - Implement a mock BMS(Battery Managment System)
 
 This project is being developed incrementally as a long-term exploratory effort, with analytical and experimental results added over time.
+
+## Table of Contents(Evolving)
+[Detailed Project Plan](ProjectOutline.md)
+
+[Mechanical](./Mechanical/): 
+- Conceptual 3D Model of the AFSRM [ConceptModel](ExplodedConceptAssembly.png)
+- [Documentation](./Mechanical/Documentation.md)
+
+[Electrical](./Electrical/):
+- PCB creation and [coilAutomation](./Electrical/CoilAutomation/kicad-coil-plugins/)
+- Biot-Savart [simulation](./Electrical/CoilAutomation/kicad-coil-plugins/simulations/)
+- [Documentation](./Electrical/Documentation.md)
+
+[Controls](./Controls/)
+- [Documentation](./Controls/Documentation.md)
+
+
+
+
+## Conceptual Approach 
+
+1. [Electrical](./Electrical/)
+
+    Determine coil geometries that produce the most Magnetic Flux using [Atomic14's Jupyter Notebooks](https://github.com/atomic14/kicad-coil-plugins.git)
+
+    Use chosen coil geometry and other electrical constraints to find max torque and RPM. Calculations will be done using python scripts. 
+
+
+2. [Mechanical](./Mechanical/) 
+
+    3D Model the AFSRM to perform Thermal Analysis(FEA) and create solutions 
+
+
+4. [Controls](./Controls/)
+
+   Integrate motor controls and sensors 
+
+
 ## Motivation
 1. **Sustainability** 
 
@@ -50,23 +88,6 @@ This project is being developed incrementally as a long-term exploratory effort,
     - Understand Motor controls  
 
 
-## Conceptual Approach 
-
-1. [Electrical](./Electrical/)
-
-    Determine coil geometries that produce the most Magnetic Flux using [Atomic14's Jupyter Notebooks](https://github.com/atomic14/kicad-coil-plugins.git)
-
-    Use chosen coil geometry and other electrical constraints to find max torque and RPM. Calculations will be done using python scripts. 
-
-
-2. [Mechanical](./Mechanical/) 
-
-    3D Model the AFSRM to perform Thermal Analysis(FEA) and create solutions 
-
-
-4. [Controls](./Controls/)
-
-   Integrate motor controls and sensors 
 
 ## Credits
 Readme Author: Jaine R.
