@@ -13,7 +13,7 @@ This project is being developed incrementally as a long-term exploratory effort,
 [Detailed Project Plan](ProjectOutline.md)
 
 [Mechanical](./Mechanical/): 
-- Conceptual 3D Model of the AFSRM [ConceptModel](ExplodedConceptAssembly.png)
+- Conceptual 3D Model of the AFSRM [ConceptModel](./Mechanical/ExplodedConceptAssembly.png)
 - [Documentation](./Mechanical/Documentation.md)
 
 [Electrical](./Electrical/):
