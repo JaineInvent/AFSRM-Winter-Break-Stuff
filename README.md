@@ -45,6 +45,7 @@ This project is being developed incrementally as a long-term exploratory effort,
 
    Integrate motor controls and sensors 
 
+For more information, please refer to: [Detailed Project Plan](ProjectOutline.md)
 
 ## Motivation
 1. **Sustainability** 
