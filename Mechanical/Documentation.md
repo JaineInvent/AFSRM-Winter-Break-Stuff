@@ -23,3 +23,5 @@ PCB STACKING is impractical using physics principles and pcb connection techniqu
 
 For now the design will be tested with a 2-layer PCB for cost and simplicity. 
 If torque is too low, then the design will contain 4-layer PCB. 
+
+Author: Jaine R. 
