@@ -109,3 +109,11 @@ def chaikin(points, iterations):
         smoothed.append([0.05 * x1 + 0.95 * x2, 0.05 * y1 + 0.95 * y2])
     smoothed.append(points[l - 1])
     return chaikin(smoothed, iterations - 1)
+
+
+def make_track(pts, net):
+    return {
+        "net": net,
+        "pts": pts,
+    }
+
