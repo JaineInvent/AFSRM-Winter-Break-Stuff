@@ -45,15 +45,28 @@ Author: Jaine R.
 -Finished dubugging the coil generator, which produced this PCB Stator: 
 <img width="900" height="900" alt="coil1" src="https://github.com/user-attachments/assets/7511d6f1-92c1-4b4b-8364-f6b5b6d0a599" />
 
-Things learnt:
-net_names- a name or class that defines an electrical connection. If two coils are connected to the same netname, they share the same electrical connection. 
-vias- pcb tunnels that allow for electrons to pass through multiple layers of the PCB. 
+Things Learnt: 
+- Check the helper files for updates prior to debugging attempts
+- A list can be changed into a dict. Those points can be rewritten as values, and a key can be assigned.
+- Dict: a structure that stores pairs of keys and values instead of a long list of points
+- Keys: classifications/names/identifiers
 
 Issues with this PCB and the code:
 - Input vias too close to shaft hole
 - hole radius <8 mm
 - Code doesn't handle scaling, rather, the author uses an unshared formula to change the geometry for larger PCB radii
 
-The first 2 bullets are solved by changing input parameters. However, scaling is yet another bottleneck of this project. 
+Update: Upon closer inspection of the code, the template can be used in the geometric formulas for winding the pcb traces, however, templates are just an option specific to the user. Commenting out the template revealed that, due to geometric offsets, normalizations, and reference vectors; radius is taken into account. 
+
+<img width="917" height="959" alt="b92572ce-021f-4720-8c92-ca1273e57e0a" src="https://github.com/user-attachments/assets/e4bf01c9-8ffc-41a6-ad8c-4b771e78e276" />
+
+Next Steps: 
+- Use Biot-Savart code and modify the pcb to optimize for largest B-feild in the axial direction
+- Calculate max torque and rpm with an assumed current and voltage (Assumptions listed in corresponding entry)
+   
+
+
+
+
         
   
