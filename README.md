@@ -21,6 +21,7 @@ This project is being developed incrementally as a long-term exploratory effort,
 - PCB creation and [coilAutomation](./Electrical/CoilAutomation/kicad-coil-plugins/)
 - Biot-Savart [simulation](./Electrical/CoilAutomation/kicad-coil-plugins/simulations/)
 - [Documentation](./Electrical/Documentation.md)
+- [Notebook with images/models of magnetic feild](./Electrical/CoilAutomation/kicad-coil-plugins/simulations/coil_magnetic_fields.ipynb)
 
 [Controls](./Controls/)
 - [Documentation](./Controls/Documentation.md)
